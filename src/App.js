@@ -1,6 +1,8 @@
 import React from 'react';
 
-const App = () => <h1>Entendo o React!</h1>;
+import SquareCollab from './components/squareCollab'
+
+const App = () => <SquareCollab />;
 
 
 
