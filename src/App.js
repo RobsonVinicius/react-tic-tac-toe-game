@@ -1,13 +1,22 @@
-import React from 'react';
+import React from "react";
 
-import BoardCollab from './components/BoardCollab';
-import SquareCollab from './components/SquareCollab';
+import BoardCollab from "./components/BoardCollab";
+import SquareCollab from "./components/SquareCollab";
 
 
 const App = () => ( 
   <>
-    <BoardCollab />
-    <SquareCollab />     
+    <BoardCollab>    
+      <SquareCollab />     
+      <SquareCollab />     
+      <SquareCollab />     
+      <SquareCollab />     
+      <SquareCollab />     
+      <SquareCollab />     
+      <SquareCollab />     
+      <SquareCollab />     
+      <SquareCollab />     
+    </BoardCollab>
   </>
 );
 
