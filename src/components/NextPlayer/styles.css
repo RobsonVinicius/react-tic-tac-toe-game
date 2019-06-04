@@ -1,9 +1,17 @@
 .next-player {
+  box-sizing: border-box;
+  width: 500px;
+  margin: 30px auto; 
   padding: 10px;
-  color: #222f3e;
-  border: 2px solid #576574;
-  border-radius: 8px;
-  display: inline-block;
+  color: #fff;  
+  background-color: #222f3e;
   font-family: 'cabin', Helvetica, sans-serif;
+  
+}
 
+@media (max-width: 500px) {
+  .next-player {
+    width: 80vw;
+    
+  }
 }
