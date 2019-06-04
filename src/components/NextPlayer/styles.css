@@ -1,0 +1,9 @@
+.next-player {
+  padding: 10px;
+  color: #222f3e;
+  border: 2px solid #576574;
+  border-radius: 8px;
+  display: inline-block;
+  font-family: 'cabin', Helvetica, sans-serif;
+
+}
