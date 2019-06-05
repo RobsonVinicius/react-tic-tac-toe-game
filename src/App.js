@@ -10,16 +10,9 @@ const App = () => (
   <BoxWrapper>
     <NextPlayer />
     <BoardCollab>    
-      <SquareCollab />     
-      <SquareCollab />     
-      <SquareCollab />     
-      <SquareCollab />     
-      <SquareCollab />     
-      <SquareCollab />     
-      <SquareCollab />     
-      <SquareCollab />     
-      <SquareCollab />             
+      <SquareCollab/>
     </BoardCollab>
+      
   </BoxWrapper>
 );
 

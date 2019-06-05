@@ -15,8 +15,8 @@ class SquareCollab extends Component {
     return (
       <button onClick={this.handleClick} className="square-collab">               {this.state.content}
       </button>
-    )
-  }
+    );
+  };
 }
 
 export default SquareCollab;

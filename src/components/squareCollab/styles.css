@@ -9,4 +9,6 @@
   color: #e84383;
   cursor: pointer;
   vertical-align: top;
+
+  outline: none;
 }
