@@ -4,7 +4,8 @@
   border: 2px solid #5c5ce7;
   width: 33.333%;
   height: 33.333%;
-  font-size: 30px;
+  font-size: 15vh;
+  font-family: 'cabin', sans-serif;  
   color: #e84383;
   cursor: pointer;
   vertical-align: top;

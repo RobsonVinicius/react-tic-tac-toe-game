@@ -18,7 +18,7 @@ const App = () => (
       <SquareCollab />     
       <SquareCollab />     
       <SquareCollab />     
-      <SquareCollab />     
+      <SquareCollab />             
     </BoardCollab>
   </BoxWrapper>
 );
