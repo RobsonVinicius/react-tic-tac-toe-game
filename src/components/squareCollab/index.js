@@ -4,12 +4,14 @@ import "./styles.css";
 
 
 class SquareCollab extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      content: "X"
-    }
-  }
+  // Não precisa mais do constructor para passar propriedades
+    // constructor(props) {
+    //   super(props);
+    //   this.state = {
+    //     content: "X"
+    //   }
+    // }
+  state = { content: "X"};
 
   handleClick = () => {
     // if ternário
