@@ -10,3 +10,9 @@
   cursor: pointer;
   vertical-align: top;
 }
+
+@media (max-width: 500px) {
+  .square-collab {
+    font-size: 9vh;  
+  }
+}

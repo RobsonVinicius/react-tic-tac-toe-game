@@ -5,27 +5,28 @@ import "./styles.css";
 
 class SquareCollab extends Component {
   // Não precisa mais do constructor para passar propriedades
-    // constructor(props) {
-    //   super(props);
-    //   this.state = {
-    //     content: "X"
-    //   }
-    // }
-  state = { content: "X"};
+    constructor(props) {
+      super(props);
+      this.state = {
+        content: "X"
+      }
+    }
+  // Somente o State
+  // state = { content: ""};
 
   handleClick = () => {
-    // if ternário
-    this.setState(this.state.content === "X" ? {content: "O"} : {content: "X"});
+    // if ternário para escrever menos
+    // this.setState(this.state.content === "X" ? {content: "O"} : {content: "X"});
     
-    // const newState = {};
+    const newState = {};
 
-    // if(this.state.content === "X") {
-    //   newState.content = "O"; 
-    // } else {
-    //   newState.content = "X"; 
-    // }
+    if(this.state.content === "X") {
+      newState.content = "O"; 
+    } else {
+      newState.content = "X"; 
+    }
 
-    // this.setState(newState);
+    this.setState(newState);
   };
 
   render() {
