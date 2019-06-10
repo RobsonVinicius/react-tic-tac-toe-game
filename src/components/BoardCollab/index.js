@@ -5,17 +5,15 @@ import SquareCollab from "../SquareCollab";
 import "./styles.css";
 
 class BoardCollab extends Component {
-  
-
-
   createSquares = () => {
-    const squares = Array(9).fill();
-  
+    const squares = Array(9).fill();    
+
     return squares.map(
       (todo, index) => (
       <SquareCollab 
+        player={this.props.squares[index]}
         key={index}  
-        onClick={this.props.onClick} 
+        onClick={() => this.props.onClick(index)} 
         />
       )
     );
