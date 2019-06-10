@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import "./styles.css";
 import BoardCollab from "../BoardCollab";
 import NextPlayer from "../NextPlayer";
+import HistoryCollab from "../HistoryCollab";
 // const BoxWrapper = ({children}) => (
 //   <main className="box-wrapper">{children}</main>
 // );
@@ -20,6 +21,7 @@ class BoxWrapper extends Component {
       <main className="box-wrapper">
         <NextPlayer player={player} />
         <BoardCollab onClick={this.handleClick}/>
+        <HistoryCollab />
       </main>
     )
   }
