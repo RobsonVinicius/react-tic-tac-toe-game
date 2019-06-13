@@ -9,7 +9,7 @@ ol {
   padding: 10px 0;
   font-family: 'cabin', Helvetica, sans-serif;
   list-style: none;        
-  background-color: #40739e;
+  background-color: #40407a;
   color: #f1f2f6;  
   box-shadow: 2px 2px 4px rgba(45, 52, 54, 0.5)
 }
@@ -21,5 +21,5 @@ ol {
 }
 
 .history-collab:nth-child(odd) {
-  background-color: #0097e6;
+  background-color: #706fd3;
 }
