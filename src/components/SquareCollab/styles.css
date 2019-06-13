@@ -1,0 +1,14 @@
+.square-collab {
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid #40739e;
+  width: 33.333%;
+  height: 33.333%;
+  font-size: 10vh;
+  font-family: 'cabin', sans-serif;  
+  color: #353b48;
+  cursor: pointer;
+  vertical-align: top;
+
+  outline: none;
+}
