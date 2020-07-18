@@ -1,4 +1,4 @@
 ## Tic Tac Toe Game
-React (em construção)
+React (Falta estudo para implementar algumas funções)
 
 
