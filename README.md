@@ -8,7 +8,7 @@ Projeto do Jogo da Velha construído em React<br><br>
 ## Demo 
 react-jogo-da-velha.netlify.app
 
-
+<br>
 
 ## Nota
 Falta estudo para implementar algumas funções
