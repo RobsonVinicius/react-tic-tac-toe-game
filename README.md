@@ -6,7 +6,7 @@ Projeto do Jogo da Velha construído em React<br><br>
 
 
 ## Demo 
-react-jogo-da-velha.netlify.app
+https://react-jogo-da-velha.netlify.app
 
 <br>
 
